@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IMSP CS Iscalau</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+
+<body>
+    <header>
+        <img class="heder-logo" src="../images/hederlogo.jpg" alt="Logoul sitelui" />
+
+        <div id="navbar" class="nav">
+            <a href="../index.html">Home</a>
+            <a href="contacte.html" class="active">Contacte</a>
+            <a href="vacante.html">Locuri vacante</a>
+            <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <br />
+
+        <div class="row">
+            <div class="col-4">
+                <div class="contact-form">
+                    <h3 class="centered">Contacteaza-ma</h3>
+                    <hr>
+
+                    <form>
+                        <label for="nume">Numele tau:</label><br />
+                        <input class="input-box" type="text" name="nume" id="nume" /><br />
+
+                        <label for="email">Email:</label><br />
+                        <input class="input-box" type="email" name="email" id="email" required /><br />
+
+                        <label for="motiv">Motivul:</label><br />
+                        <select class="input-box" name="motiv" id="email">
+                            <option>Vreau o progranare la medic</option>
+                            <option>Vreau o vaccina</option>
+                            <option>Vreau un certificat medical</option>
+                        </select>
+
+                        <br /><br />
+                        <input class="input-submit" type="submit" value="Transmite" />
+                    </form>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-6">
+                <div class="container-iframe">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wte0Va2B5ac" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <hr />
+        <div class="row">
+            <div class="col-4">
+                <div class="container-contacte">
+                    <h4>Contacte</h4>
+
+                    <b>Numar de contact: </b><span>+37325977342</span><br /><br />
+                    <b>Adresa: </b><span>s. Iscalau r. Falesti</span><br /><br />
+                    <b>Ore de lucru: </b><span>8 - 18</span>
+
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="container-iframe">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10766.962766377923!2d27.811546394621757!3d47.57283349343027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb6c81433fe075%3A0xa726b6227bdaf7f3!2z0JjRiNC60Y3Qu9GN0YMsINCc0L7Qu9C00LDQstC40Y8!5e0!3m2!1sru!2s!4v1597354572103!5m2!1sru!2s"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="centered footer-info">
+            <span>IMSP CS Iscalau</span>
+            <span id="an"> </span>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
